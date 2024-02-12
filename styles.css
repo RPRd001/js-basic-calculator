@@ -65,8 +65,13 @@ body {
     align-items: flex-end;
     justify-content: center;
     padding: 0.5rem;
-    font-size: xxx-large;
+    font-size: xx-large;
     font-family: 'Orbitron', sans-serif;
+}
+
+.screen-off {
+    background-color: rgb(93, 123, 133);
+    box-shadow: 0px 0px 2px 2px rgb(93, 123, 133);
 }
 
 .calculator-keyboard {
@@ -82,13 +87,13 @@ body {
     font-size: large;
 }
 
-.operator-button:hover,
+.operator-grey:hover,
 .num-button:hover {
     background-color: grey;
     cursor: pointer;
 }
 
-.operator-button,
+.operator-grey,
 .num-button {
     background-color: rgb(216, 214, 214);
     border: 2px solid darkgrey;
