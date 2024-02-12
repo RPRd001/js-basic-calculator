@@ -7,6 +7,9 @@
 
     MAIN FUNCTION:
     - Calls the ops.
+
+    To Do:
+    1. Connect Front-End & Back-End
 */
 
 // Operations
@@ -53,5 +56,3 @@ function calculate() {
     }
     
 }
-
-calculate()
