@@ -11,23 +11,23 @@
 
 // Operations
 function addition(num1, num2) {
-    let sum = num1 + num2;
-    console.log(`The Result of the Sum is: ${sum}`)
+    let additionResult = num1 + num2;
+    return `The Result of the Sum is: ${additionResult}`
 }
 
 function subtraction(num1, num2) {
-    let sum = num1 - num2;
-    console.log(`The Result of the Sum is: ${sum}`)
+    let subtractionResult = num1 - num2;
+    return `The Result of the subtraction is: ${subtractionResult}`
 }
 
 function multiplication(num1, num2) {
-    let sum = num1 * num2;
-    console.log(`The Result of the Sum is: ${sum}`)
+    let multiplicationResult = num1 * num2;
+    return `The Result of the multiplication is: ${multiplicationResult}`
 }
 
 function division(num1, num2) {
-    let sum = num1 / num2;
-    console.log(`The Result of the Sum is: ${sum}`)
+    let divisionResult = num1 / num2;
+    return `The Result of the division is: ${divisionResult}`
 }
 
 // Main Function
